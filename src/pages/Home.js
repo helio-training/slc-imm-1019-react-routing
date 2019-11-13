@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default (props) => {
+function Home (props) {
     return (
         <div>
             <h2>{props.title}</h2>
@@ -8,3 +8,5 @@ export default (props) => {
         </div>
     );
 }
+
+export default Home
